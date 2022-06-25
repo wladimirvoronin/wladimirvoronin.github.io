@@ -1,5 +1,6 @@
 ---
 title: "Кошки лето"
+published: false
 ---
 
 ## Кошка и еда
