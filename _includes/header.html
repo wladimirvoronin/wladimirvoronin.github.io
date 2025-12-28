@@ -6,6 +6,8 @@
     {%- assign page_titles = site.pages | map: 'title' | compact %}
     <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
 
+    {% include header-search.html %}
+
     {%- unless page_titles == empty %}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" />
